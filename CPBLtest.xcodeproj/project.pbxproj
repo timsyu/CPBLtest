@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		825B4B9721707181002AB0E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82F12F23216B405700FE32B0 /* Main.storyboard */; };
+		825B4B9821707183002AB0E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82F12F23216B405700FE32B0 /* Main.storyboard */; };
 		82F12F20216B405700FE32B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F12F1F216B405700FE32B0 /* AppDelegate.swift */; };
 		82F12F22216B405700FE32B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F12F21216B405700FE32B0 /* ViewController.swift */; };
 		82F12F25216B405700FE32B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82F12F23216B405700FE32B0 /* Main.storyboard */; };
@@ -187,6 +189,9 @@
 		82F12F14216B405700FE32B0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					webView,
+				);
 				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Tim Syu";
@@ -239,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				825B4B9721707181002AB0E9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				825B4B9821707183002AB0E9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
